@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="code.png">
+    <title>Learn To Code! | CSS</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #1155cc;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0px -2.5px 10px 5px #111;
+        }
+
+        .li {
+            float: left;
+        }
+
+            .li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+
+        a:hover {
+            background-color: #2165DC;
+        }
+
+        .homeimg {
+            width: 15px;
+        }
+
+        .Main {
+            padding-top: 3%;
+            padding-left: 1%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        h2 {
+            color: #303030;
+        }
+
+        .editor {
+            height: 300px;
+            width: 50%;
+            border-width: 0px;
+        }
+
+        .editor85 {
+            height: 500px;
+            width: 100%;
+            border-width: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <ul class="ul">
+        <li class="li"><a href="home.html"><img src="home.png" class="homeimg"></a></li>
+        <li class="li"><a href="HTML.html">HTML </a></li>
+        <li class="li"><a href="CSS.html">CSS </a></li>
+        <li class="li"><a href="JavaScript.html">JavaScript </a></li>
+    </ul>
+    <div class="Main">
+        <p>
+            <h1>CSS Syntax & Selectors</h1>
+            <h1>Syntax</h1>
+            <br />
+            A CSS rule consists of a selector and a decloration block.<br />
+            <h1>Syntax Example</h1>
+            <img src="CSS syntax.png">
+            <br />
+            <iframe src="CSSEdit.html" class="editor85"></iframe>
+            <h1>Selector</h1>
+            <br />
+            You can select a class with <i>.<span style="color:grey;">classname</span></i>,
+            <iframe src="CSSEdit (2).html" class="editor85"></iframe>
+            <br />
+            You can alse specify the element with the class that gets affected
+            <iframe src="CSSEdit (4).html" class="editor85"></iframe>
+            <br />
+            you can do the same with an <i>#<span style="color:grey;">idname</span></i>
+            <br /><br />
+            I can't show you this because the code editor doesn't recognize '#' I'm not quite sure how to fix this.
+            <br /> so we will just use class instead
+            <br /><br />if you do this with an actual .html file it will work
+            <br /><br /><br />
+            <h1>Universal Selector</h1>
+            '*' is the universal selector
+            <br /> we can use it so give everything an attribute
+            <iframe src="CSSEdit (3).html" class="editor85"></iframe>
+            <h1>Grouping Selectors</h1>
+            A group selector says that selects a group of html elements that should have the same styles.
+            <br />
+            <br />
+            in the following example all three selectors have the same style,
+            <iframe src="CSSEdit (5).html" class="editor85"></iframe>
+            This is inificient and we can group these three selectors together like this:
+            <iframe src="CSSEdit (6).html" class="editor85"></iframe>
+            <br />
+            if u have a element in a group selector you can have also it in another selector:
+            <iframe src="CSSEdit (7).html" class="editor85"></iframe>
+
+
+        </p>
+       
+    </div>
+
+</body>
+</html>
