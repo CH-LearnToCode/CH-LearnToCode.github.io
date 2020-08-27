@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="code.png">
+    <title>Learn To Code! | CSS</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #1155cc;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0px -2.5px 10px 5px #111;
+        }
+
+        .li {
+            float: left;
+        }
+
+            .li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+
+        a:hover {
+            background-color: #2165DC;
+        }
+
+        .homeimg {
+            width: 15px;
+        }
+
+        .Main {
+            padding-top: 3%;
+            padding-left: 1%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        h2 {
+            color: #303030;
+        }
+
+        .editor {
+            height: 300px;
+            width: 50%;
+            border-width: 0px;
+        }
+
+        .editor85 {
+            height: 500px;
+            width: 100%;
+            border-width: 0px;
+        }
+
+        table, td, tr {
+            border-color:grey; 
+            border-style:solid;
+            border-collapse:collapse;
+            border-width:1px;
+        } 
+
+        tr:nth-child(2n) {
+            background-color:#EEE;
+        }
+
+        tr{
+            height:2em;
+        }
+    </style>
+</head>
+<body>
+    <ul class="ul">
+        <li class="li"><a href="home.html"><img src="home.png" class="homeimg"></a></li>
+        <li class="li"><a href="HTML.html">HTML </a></li>
+        <li class="li"><a href="CSS.html">CSS </a></li>
+        <li class="li"><a href="JavaScript.html">JavaScript </a></li>
+    </ul>
+    <div class="Main">
+        <p>
+            <h1>CSS Background</h1>
+            <br />
+            <h1>Background Color</h1>
+            <br />
+            The background-color property specifies the background color of an element.
+            <br />
+            Example:
+            <iframe src="CSSEdit (16).html" class="editor85"></iframe>
+            <h1>Opacity / Transparency</h1>
+            <br />
+            The opacity property specifies how transparent an element is. It takes  value from 0-1, the lower the value the more transparent
+            <br />
+            Example:
+            <iframe src="CSSEdit (17).html" class="editor85"></iframe>
+            <h1>Background Image</h1>
+            <br />
+            The background-image propery specifies an image to use as the background instead of  a solid color
+            <br />
+            By defualt, the image repeats across the entire element
+            <br />
+            <br />
+            Example:
+            <iframe src="CSSEdit (18).html" class="editor85"></iframe>
+            <h1>Image Repeat</h1>
+            As we just saw the image repeated all over the page
+            <br /> we can change that so it only repeats along one axis.
+            <br /><br />
+            Example:
+            <iframe src="CSSEdit (19).html" class="editor85"></iframe>
+            <br /><br />
+            If we don't want the image to repeat we can do background-repeat: no-repeat;
+            <iframe src="CSSEdit (20).html" class="editor85"></iframe>
+            <br /><br />
+            <h1>Image Position</h1>
+            <br />
+            We can define the position of the image with image-position<br />
+            Example:
+            <iframe src="CSSEdit (21).html" class="editor85"></iframe>
+            <h1>Image Attachment</h1>
+            The image-attachment property defines if the image scrolls with the rest of the page
+            <br />By defualt the value is set to 'scroll'
+            <br />if the value is set to 'fixed' it will not scroll with the rest of the page
+            <iframe src="CSSEdit (22).html" class="editor85"></iframe>
+        </p>
+       
+    </div>
+
+</body>
+</html>

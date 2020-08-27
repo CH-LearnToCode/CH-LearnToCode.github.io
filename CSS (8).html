@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="code.png">
+    <title>Learn To Code! | CSS</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #1155cc;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0px -2.5px 10px 5px #111;
+        }
+
+        .li {
+            float: left;
+        }
+
+            .li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+
+        a:hover {
+            background-color: #2165DC;
+        }
+
+        .homeimg {
+            width: 15px;
+        }
+
+        .Main {
+            padding-top: 3%;
+            padding-left: 1%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        h2 {
+            color: #303030;
+        }
+
+        .editor {
+            height: 300px;
+            width: 50%;
+            border-width: 0px;
+        }
+
+        .editor85 {
+            height: 500px;
+            width: 100%;
+            border-width: 0px;
+        }
+
+        table, td, tr {
+            border-color:grey; 
+            border-style:solid;
+            border-collapse:collapse;
+            border-width:1px;
+        } 
+
+        tr:nth-child(2n) {
+            background-color:#EEE;
+        }
+
+        tr{
+            height:2em;
+        }
+    </style>
+</head>
+<body>
+    <ul class="ul">
+        <li class="li"><a href="home.html"><img src="home.png" class="homeimg"></a></li>
+        <li class="li"><a href="HTML.html">HTML </a></li>
+        <li class="li"><a href="CSS.html">CSS </a></li>
+        <li class="li"><a href="JavaScript.html">JavaScript </a></li>
+    </ul>
+    <div class="Main">
+        <p>
+            <h1>CSS Shadows</h1>
+            <span style="font-size:115%; text-shadow:2px 2px 5px #33f;">With CSS you can create shadow effects</span>
+            <br /><br />
+            There are two types of shadows
+            <ul>
+                <li>text-shadow</li>
+                <li>box-shadow</li>
+            </ul>
+            <h1>Text Shadow</h1>
+            The text-shadow property applies shadows to text.
+            <br />
+            We can specify x and y offset of the shadow.
+            <br />Example
+            <iframe src="CSSEdit (31).html" class="editor85"></iframe>
+            We can also specify the color of the shadow.
+            <br />Example
+            <iframe src="CSSEdit (32).html" class="editor85"></iframe>
+            We can specify the amount the shadow blurs.
+            <br />Example
+            <iframe src="CSSEdit (33).html" class="editor85"></iframe>
+            Finaly we can combine multiples shadows
+            <br />Example
+            <iframe src="CSSEdit (34).html" class="editor85"></iframe>
+            <iframe src="CSSEdit (35).html" class="editor85"></iframe>
+            <h1>Box Shadow</h1>
+            The box-shadow property applies shadows to 'box' elements.
+            <br />
+            Similarly to text shadows we can specify x and y offset of the shadow.
+            <br />Example
+            <iframe src="CSSEdit (36).html" class="editor85"></iframe>
+            We can also specify the color of the shadow.
+            <br />Example
+            <iframe src="CSSEdit (37).html" class="editor85"></iframe>
+            We can specify the amount the shadow blurs.
+            <br />Example
+            <iframe src="CSSEdit (38).html" class="editor85"></iframe>
+            And we can combine multiples shadows
+            <br />Example
+            <iframe src="CSSEdit (39).html" class="editor85"></iframe>
+        </p>
+       
+    </div>
+
+</body>
+</html>
