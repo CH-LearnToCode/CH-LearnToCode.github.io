@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="code.png">
+    <title>Learn To Code! | CSS</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #1155cc;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0px -2.5px 10px 5px #111;
+        }
+
+        .li {
+            float: left;
+        }
+
+            .li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+
+        a:hover {
+            background-color: #2165DC;
+        }
+
+        .homeimg {
+            width: 15px;
+        }
+
+        .Main {
+            padding-top: 3%;
+            padding-left: 1%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        h2 {
+            color: #303030;
+        }
+
+        .editor {
+            height: 300px;
+            width: 50%;
+            border-width: 0px;
+        }
+
+        .editor85 {
+            height: 500px;
+            width: 100%;
+            border-width: 0px;
+        }
+
+        table, td, tr {
+            border-color:grey; 
+            border-style:solid;
+            border-collapse:collapse;
+            border-width:1px;
+        } 
+
+        tr:nth-child(2n) {
+            background-color:#EEE;
+        }
+
+        tr{
+            height:2em;
+        }
+    </style>
+</head>
+<body>
+    <ul class="ul">
+        <li class="li"><a href="home.html"><img src="home.png" class="homeimg"></a></li>
+        <li class="li"><a href="HTML.html">HTML </a></li>
+        <li class="li"><a href="CSS.html">CSS </a></li>
+        <li class="li"><a href="JavaScript.html">JavaScript </a></li>
+    </ul>
+    <div class="Main">
+        <p>
+            <h1>CSS Overflow</h1>
+            The overflow property defines whether the content inside a container will be cut if it's to big to fit in the container.
+            <br /><br />
+            The overflow property has the following values:
+            <ul>
+                <li>visible - defualt, the content will not be cut</li>
+                <li>hidden - the content will be cut</li>
+                <li>scroll - the content is cut but is viewable via the scrolling</li>
+                <li>auto - same as scroll except only when necerssery</li>
+
+            </ul>
+            The overflow propery only works on block elements with a specified height.
+            <br /><br /><br /><br /><br />
+            <h1>overflow: visible</h1>
+            When overflow is set to visible the content that overflows out of the container will be shown.
+            <iframe src="CSSEdit (40).html" class="editor85"></iframe>
+            <br /><br />
+            <h1>overflow: hidden</h1>
+            The overflow property is set to hidden and so all content that overflows will be cut.
+            <iframe src="CSSEdit (41).html" class="editor85"></iframe>
+            <br /><br />
+            <h1>overflow: scroll</h1>
+            The overflow property is set the scroll and now it will hide the overflowing content but it can still be viewed if you scroll down.
+            <iframe src="CSSEdit (42).html" class="editor85"></iframe>
+            <br /><br />
+            <h1>overflow: auto</h1>
+            The overflow is set to auto, this means that it will display as scroll but only if neccersery so if it doesn't over flow it won't have the scroll bars
+            <iframe src="CSSEdit (43).html" class="editor85"></iframe>
+            <br /><br /><br /><br />
+                              <h3>We can also use overflow-x and overflow-y individualy if we wanted to do so.</h3>
+
+        </p>
+       
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+﻿    <!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="code.png">
+    <title>Learn To Code! | CSS</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #1155cc;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0px -2.5px 10px 5px #111;
+        }
+
+        .li {
+            float: left;
+        }
+
+            .li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+
+        a:hover {
+            background-color: #2165DC;
+        }
+
+        .homeimg {
+            width: 15px;
+        }
+
+        .Main {
+            padding-top: 3%;
+            padding-left: 1%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        h2 {
+            color: #303030;
+        }
+
+        .editor {
+            height: 300px;
+            width: 50%;
+            border-width: 0px;
+        }
+
+        .editor85 {
+            height: 500px;
+            width: 100%;
+            border-width: 0px;
+        }
+
+        table, td, tr {
+            border-color:grey; 
+            border-style:solid;
+            border-collapse:collapse;
+            border-width:1px;
+        } 
+
+        tr:nth-child(2n) {
+            background-color:#EEE;
+        }
+
+        tr{
+            height:2em;
+        }
+    </style>
+</head>
+<body>
+    <ul class="ul">
+        <li class="li"><a href="home.html"><img src="home.png" class="homeimg"></a></li>
+        <li class="li"><a href="HTML.html">HTML </a></li>
+        <li class="li"><a href="CSS.html">CSS </a></li>
+        <li class="li"><a href="JavaScript.html">JavaScript </a></li>
+    </ul>
+    <div class="Main">
+        <p>
+
+            <h1>CSS Float</h1>
+            The CSS float property specifies how an element should 'float'
+            <br />
+            <iframe src="CSSEdit (44).html" class="editor85"></iframe>
+            <h1>Float</h1>
+            <ul>
+                <li>left - The element floats on the left of the container</li>
+                <li>right - The element floats on the right of the container</li>
+                <li>none - The element does not float (will be displayed just where it occurs in the text) This is default </li>
+                <li>inherit - The element inherits the float value of its container</li>
+            </ul>
+            <h1>Example</h1>
+            <b><mark>float:left</mark></b>
+            <iframe src="CSSEdit (45).html" class="editor85"></iframe>
+            <b><mark>float:right</mark></b>
+            <iframe src="CSSEdit (46).html" class="editor85"></iframe>
+            <b><mark>float:none</mark></b>
+            <iframe src="CSSEdit (47).html" class="editor85"></iframe>
+            <b><mark>float:inherit</mark></b>
+            <iframe src="CSSEdit (48).html" class="editor85"></iframe>
+            <br /><br />
+            <h1>Clear</h1>
+        </p>
+       
+    </div>
+
+</body>
+</html>
