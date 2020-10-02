@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="code.png">
+    <title>Learn To Code! | JavaScript</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #1155cc;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0px -2.5px 10px 5px #111;
+        }
+
+        .li {
+            float: left;
+        }
+
+            .li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+
+        a:hover {
+            background-color: #2165DC;
+        }
+
+        .homeimg {
+            width: 15px;
+        }
+
+        .Main {
+            padding-top: 3%;
+            padding-left: 1%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        h2 {
+            color: #303030;
+        }
+
+        .editor {
+            height: 300px;
+            width: 50%;
+            border-width: 0px;
+        }
+
+        .editor85 {
+            height: 500px;
+            width: 100%;
+            border-width: 0px;
+        }
+
+        table, td, tr {
+            border-color: grey;
+            border-style: solid;
+            border-collapse: collapse;
+            border-width: 1px;
+        }
+
+            tr:nth-child(2n) {
+                background-color: #EEE;
+            }
+
+        tr {
+            height: 2em;
+        }
+    </style>
+</head>
+<body>
+    <ul class="ul">
+        <li class="li"><a href="home.html"><img src="home.png" class="homeimg"></a></li>
+        <li class="li"><a href="HTML.html">HTML </a></li>
+        <li class="li"><a href="CSS.html">CSS </a></li>
+        <li class="li"><a href="JavaScript.html">JavaScript </a></li>
+    </ul>
+    <div class="Main">
+        <h1>Classes</h1>
+        Classes can be used to create many different similar objects<br /><br />
+        Use the keyword class to create a class, add the constructor() method.
+        <br />
+        The constructor method is called each time the class object is initialized.
+        <iframe src="JS(13).html" class="editor85"></iframe>
+        <iframe src="JS(13) (2).html" class="editor85"></iframe>
+        <h1>Methods</h1>
+        We can define methods inside JavaScript Classes
+        <iframe src="JS(13) (3).html" class="editor85"></iframe>
+        <h1>Inheritance</h1>
+        To create a class inheritance we use the 'extend' keyword<br /><br />
+        A class created with a class inheritance inherits everything from another class.
+        <br /><br />
+        if there is no constructor() method in the new class it will use the same one as it's parent
+        <iframe src="JS(13) (4).html" class="editor85"></iframe>
+        if we add a constructor we can use the super() method to refer to the parents constructor
+        <iframe src="JS(13) (5).html" class="editor85"></iframe>
+        the describe method doesn't include waterspeed
+        <iframe src="JS(13) (6).html" class="editor85"></iframe>
+        we can also write new methods to our new class
+        <iframe src="JS(13) (7).html" class="editor85"></iframe>
+
+    </div>
+</body>
+</html>

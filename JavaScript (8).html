@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="code.png">
+    <title>Learn To Code! | JavaScript</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #1155cc;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0px -2.5px 10px 5px #111;
+        }
+
+        .li {
+            float: left;
+        }
+
+            .li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+
+        a:hover {
+            background-color: #2165DC;
+        }
+
+        .homeimg {
+            width: 15px;
+        }
+
+        .Main {
+            padding-top: 3%;
+            padding-left: 1%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        h2 {
+            color: #303030;
+        }
+
+        .editor {
+            height: 300px;
+            width: 50%;
+            border-width: 0px;
+        }
+
+        .editor85 {
+            height: 500px;
+            width: 100%;
+            border-width: 0px;
+        }
+
+        table, td, tr {
+            border-color: grey;
+            border-style: solid;
+            border-collapse: collapse;
+            border-width: 1px;
+        }
+
+            tr:nth-child(2n) {
+                background-color: #EEE;
+            }
+
+        tr {
+            height: 2em;
+        }
+    </style>
+</head>
+<body>
+    <ul class="ul">
+        <li class="li"><a href="home.html"><img src="home.png" class="homeimg"></a></li>
+        <li class="li"><a href="HTML.html">HTML </a></li>
+        <li class="li"><a href="CSS.html">CSS </a></li>
+        <li class="li"><a href="JavaScript.html">JavaScript </a></li>
+    </ul>
+    <div class="Main">
+        <h1>Objects</h1>
+        in JavaScript we can define objects.<br /><br />
+        in reallife objects have properties such as weight, size etc
+        <br /><br />
+        we can define variables in JavaScript<br />
+        an object is also a type of variable
+        <iframe src="JS(12).html" class="editor85"></iframe>
+        <br />
+        we have to use person.firstName, because it is not a variable but is a property of the person variable.
+        <br /><br />
+        The values are written as <i>name:value</i><br />and can be acsessed with
+        <i>objectName.propertyName</i>
+        <br /><br />
+        <h1>This.<i>value</i></h1>
+        <iframe src="JS(12) (4).html" class="editor85"></iframe>
+        since person.fullName is a function it will return the function definition because we should have used person.fullName();
+        <iframe src="JS(12) (5).html" class="editor85"></iframe>
+        <br /><br />
+        <h1>Constructors</h1>
+        <iframe src="JS(12) (2).html" class="editor85"></iframe>
+        <iframe src="JS(12) (3).html" class="editor85"></iframe>
+    </div>
+</body>
+</html>

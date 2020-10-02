@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="code.png">
+    <title>Learn To Code! | JavaScript</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #1155cc;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0px -2.5px 10px 5px #111;
+        }
+
+        .li {
+            float: left;
+        }
+
+            .li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+
+        a:hover {
+            background-color: #2165DC;
+        }
+
+        .homeimg {
+            width: 15px;
+        }
+
+        .Main {
+            padding-top: 3%;
+            padding-left: 1%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        h2 {
+            color: #303030;
+        }
+
+        .editor {
+            height: 300px;
+            width: 50%;
+            border-width: 0px;
+        }
+
+        .editor85 {
+            height: 500px;
+            width: 100%;
+            border-width: 0px;
+        }
+
+        table, td, tr {
+            border-color: grey;
+            border-style: solid;
+            border-collapse: collapse;
+            border-width: 1px;
+        }
+
+            tr:nth-child(2n) {
+                background-color: #EEE;
+            }
+
+        tr {
+            height: 2em;
+        }
+    </style>
+</head>
+<body>
+    <ul class="ul">
+        <li class="li"><a href="home.html"><img src="home.png" class="homeimg"></a></li>
+        <li class="li"><a href="HTML.html">HTML </a></li>
+        <li class="li"><a href="CSS.html">CSS </a></li>
+        <li class="li"><a href="JavaScript.html">JavaScript </a></li>
+    </ul>
+    <div class="Main">
+        <h1>Var, Let and Const</h1>
+        <h1>Var Variables</h1>
+        <iframe src="JS(11).html" class="editor85"></iframe>
+        the test variable is 'globally scoped' because it was defined outside of the function<br /><br />
+        however the hello variable is 'functionally scopes' because it was defined inside of the function'
+        <iframe src="JS(11) (2).html" class="editor85"></iframe>
+        hi is writen twice, because the function changed the variable 'hello' even for outside of the function.
+        <h1>Let Variables</h1>
+        a Let variable is 'block scoped' meaning that it only exsists inside of a block, a block is defined by {}, anything inside of the curly brackets is inside of the block
+        <iframe src="JS(11) (3).html" class="editor85"></iframe>
+        if we were to do that same with var it would print Hello twice
+        <iframe src="JS(11) (4).html" class="editor85"></iframe>
+        <h1>let can be updated but not re-declared</h1>
+        Just like var,  a variable declared with let can be updated within its scope. Unlike var, a let variable cannot be re-declared within its scope
+        <iframe src="JS(11) (5).html" class="editor85"></iframe>
+        the following code will result in an error because let cannot be redefined
+        <iframe src="JS(11) (6).html" class="editor85"></iframe>
+        the following code will work because the two declorations are in diffrent 'scopes'
+        <iframe src="JS(11) (7).html" class="editor85"></iframe>
+        <h1>Const Variables</h1>
+        Const variables are similar to let variables except that they cannot be redefined or updated; they are (const)ant all of the time
+        <br /><br />
+        the following code will get the error 'invalid assignment to const'
+        <iframe src="JS(11) (8).html" class="editor85"></iframe>
+        <br /><br /><br /><br />
+    </div>
+</body>
+</html>

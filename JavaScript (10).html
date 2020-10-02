@@ -10,7 +10,7 @@
             margin: 0;
         }
 
-        ul {
+        .ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
@@ -21,11 +21,11 @@
             box-shadow: 0px -2.5px 10px 5px #111;
         }
 
-        li {
+        .li {
             float: left;
         }
 
-            li a {
+            .li a {
                 display: block;
                 color: white;
                 text-align: center;
@@ -63,30 +63,38 @@
             width: 100%;
             border-width: 0px;
         }
+
+        table, td, tr {
+            border-color: grey;
+            border-style: solid;
+            border-collapse: collapse;
+            border-width: 1px;
+        }
+
+            tr:nth-child(2n) {
+                background-color: #EEE;
+            }
+
+        tr {
+            height: 2em;
+        }
     </style>
 </head>
 <body>
-    <ul>
-        <li><a href="home.html"><img src="home.png" class="homeimg"></a></li>
-        <li><a href="HTML.html">HTML </a></li>
-        <li><a href="CSS.html">CSS </a></li>
-        <li><a href="JavaScript.html">JavaScript </a></li>
+    <ul class="ul">
+        <li class="li"><a href="home.html"><img src="home.png" class="homeimg"></a></li>
+        <li class="li"><a href="HTML.html">HTML </a></li>
+        <li class="li"><a href="CSS.html">CSS </a></li>
+        <li class="li"><a href="JavaScript.html">JavaScript </a></li>
     </ul>
     <div class="Main">
-        <h1>JavaScript</h1>
-        Javascript is what programmer would refer to as a 'real' programming language as opposed to HTML and CSS
-
-        <br /><br />
-        Javascript can be added to a HTML page with the &lt;script&gt; tag
-        <br /><br />
-        <iframe src="JS(1).html" class="editor85"></iframe>
-        <h1>Edit HTML with JavaScript</h1>
-        The code get the element with the id="demo" and edits the innerHTML to "Javascript can change the HTML of a document"
-        <iframe src="JS(2).html" class="editor85"></iframe>
-        <h2>Javascript can be ran with a button</h2>
-        <iframe src="JS(3).html" class="editor85"></iframe>
-        <h1>Edit CSS with Javascript</h1>
-        <iframe src="JS(4).html" class="editor85"></iframe>
+        <h1>Switch Statements</h1>
+        <iframe src="JS(14).html" class="editor85"></iframe>
+        this is innificient because you are checking all of the diffrent if statements
+        <iframe src="JS(14) (2).html" class="editor85"></iframe>
+        this is a bit better on average but still not good enough<br /><br />
+        <iframe src="JS(14) (3).html" class="editor85"></iframe>
+        <iframe src="JS(14) (4).html" class="editor85"></iframe>
     </div>
 </body>
 </html>

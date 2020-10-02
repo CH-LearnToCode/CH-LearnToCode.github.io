@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="code.png">
+    <title>Learn To Code! | JavaScript</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #1155cc;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0px -2.5px 10px 5px #111;
+        }
+
+        .li {
+            float: left;
+        }
+
+            .li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+
+        a:hover {
+            background-color: #2165DC;
+        }
+
+        .homeimg {
+            width: 15px;
+        }
+
+        .Main {
+            padding-top: 3%;
+            padding-left: 1%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        h2 {
+            color: #303030;
+        }
+
+        .editor {
+            height: 300px;
+            width: 50%;
+            border-width: 0px;
+        }
+
+        .editor85 {
+            height: 500px;
+            width: 100%;
+            border-width: 0px;
+        }
+
+        table, td, tr {
+            border-color: grey;
+            border-style: solid;
+            border-collapse: collapse;
+            border-width: 1px;
+        }
+
+            tr:nth-child(2n) {
+                background-color: #EEE;
+            }
+
+        tr {
+            height: 2em;
+        }
+    </style>
+</head>
+<body>
+    <ul class="ul">
+        <li class="li"><a href="home.html"><img src="home.png" class="homeimg"></a></li>
+        <li class="li"><a href="HTML.html">HTML </a></li>
+        <li class="li"><a href="CSS.html">CSS </a></li>
+        <li class="li"><a href="JavaScript.html">JavaScript </a></li>
+    </ul>
+    <div class="Main">
+        <h1>Loops</h1>
+        <br /><br /><br />
+        <h1>For Loops</h1>
+        <iframe src="JS(9).html" class="editor85"></iframe>
+        in the example above it writes every item in the array<br /><br />
+        but doing it that way is inefficent and we don't want that
+        <iframe src="JS(9) (2).html" class="editor85"></iframe>
+        now this is better.<br /><br /><br /><br />
+        <b>in the for loop there are three parts</b><br /><br />
+        'i = 0' defines i as 0 at the start of the for loop
+        <br /><br />
+        'i < 4' checks if i is smaller that 4 and if so it will run the code in the for loop if else it will stop
+        <br /><br />
+        'i++' adds 1 to i and then goes to back to 'i < 4'
+        <br /><br /><br />
+        the i variable only exsists in the for loop meaning that you cannot call for 'i' outside the for loop
+        <br /><br /><br /><br />
+        if we wanted to find the sum of all the numbers from 1-100, we could write '1 + 2 + 3 + 4 + 5 + 6 ... 100'
+        <br />
+        or we could do this
+        <iframe src="JS(9) (3).html" class="editor85"></iframe>
+
+        <h1>While Loops</h1>
+        A while loop says that something will happen over and over again while something is true<br /><br />
+        we can do the same thing we just did with a while loop
+        <iframe src="JS(9) (4).html" class="editor85"></iframe>
+    </div>
+</body>
+</html>
